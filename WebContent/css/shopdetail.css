@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.main .shop-info{
+	border: 1px solid gainsboro;
+	float: left;
+	width: 250px;
+	padding: 10px;
+}
+.main .head-img{
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+.main .head-img img{
+	height: 100%;
+	width: 100%;
+}
+.main .shop-info .desc{
+	padding-top: 20px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 14px;
+}
+.main .shop-info .desc h3{
+	text-align: center;
+}
+.main .items{
+	width: 890px;
+	padding-left: 20px;
+	float: left;
+}
+.main .items .head{
+	width: 100%;
+	padding: 6px 6px 6px 10px;
+	border: 1px solid gainsboro;
+}
+.main .items .item-list{
+	padding-top: 20px;
+}
+.main .items .item-list li{
+	display: block;
+	list-style: none;
+	float: left;
+	border: 1px solid gainsboro;
+	height: 350px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+.main .items .item-list li:hover{
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+	opacity: 0.9;
+}
+.main .items .item-list li>div{
+    padding: 0px;
+    margin: 10px;
+    background: #fff;
+    height: 253px;
+	width: 253px;
+}
+.main .items .item-list li>div a{
+	text-decoration: none;
+ 			display: block;
+}
+.main .items .item-list li>div .title{
+	padding: 0px 10px;
+    overflow: hidden;
+    height: 36px;
+    line-height: 36px;
+}
+.main .items .item-list li>div .price{
+	display: block;
+	float: left;
+	color: #e4393c;
+ 			font-weight: 600;
+ 			text-indent: 10px;
+}
+.main .items .item-list li>div .old-price{
+	display: block;
+	float: right;
+}
